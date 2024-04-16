@@ -1,18 +1,19 @@
 {
   "name": "template-compiler",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build:css": "node-sass src/styles.scss build/styles.css",
-    "build:html": "node build.js",
-    "watch": "chokidar 'src/*' -c 'npm run build:css && npm run build:html'"
+  "version": "1.1.0",
+  "description": "A CLI tool to initialize projects with HTML and SCSS.",
+  "main": "bin/tcc.js",
+  "bin": {
+    "tcc": "./bin/tcc.js"
   },
-  "keywords": [],
-  "author": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["html", "scss", "cli", "template"],
+  "author": "Kacper Walter",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "chokidar-cli": "^3.0.0",
-    "node-sass": "^9.0.0"
+    "node-sass": "^6.0.1"
   }
 }
