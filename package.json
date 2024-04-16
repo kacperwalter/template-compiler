@@ -1,0 +1,18 @@
+{
+  "name": "template-compiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "node-sass src/styles.scss build/styles.css",
+    "build:html": "node build.js",
+    "watch": "chokidar 'src/*' -c 'npm run build:css && npm run build:html'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "node-sass": "^9.0.0"
+  }
+}
