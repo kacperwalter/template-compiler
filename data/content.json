@@ -1,0 +1,5 @@
+{
+  "title": "Example Landing Page",
+  "header": "Welcome to Our Service",
+  "description": "This is an example of a landing page using Handlebars, SCSS, and Node.js."
+}
