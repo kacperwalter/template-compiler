@@ -1,18 +1,24 @@
 {
   "name": "template-compiler",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.1.0",
+  "description": "HTML + SCSS compiler for shitty HTML pages on platforms like Selly",
+  "main": "generate.js",
   "scripts": {
-    "build:css": "node-sass src/styles.scss build/styles.css",
-    "build:html": "node build.js",
-    "watch": "chokidar 'src/*' -c 'npm run build:css && npm run build:html'"
+    "build": "node generate.js",
+    "watch:css": "chokidar 'styles/**/*.scss' -c 'npm run build'",
+    "watch:html": "chokidar 'templates/**/*.hbs' 'data/**/*.json' -c 'npm run build'",
+    "watch": "concurrently 'npm run watch:css' 'npm run watch:html'",
+    "start": "concurrently 'npm run watch' 'live-server dist'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "chokidar-cli": "^3.0.0",
-    "node-sass": "^9.0.0"
+    "concurrently": "^7.0.0",
+    "fs-extra": "^11.2.0",
+    "handlebars": "^4.7.8",
+    "live-server": "^1.2.1",
+    "node-sass": "^7.0.1"
   }
 }
