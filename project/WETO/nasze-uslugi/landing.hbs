@@ -1,0 +1,19 @@
+<style>
+    {{{style}}}
+</style>
+
+    <main class="main-content">
+        <section class="introduction">
+            <p class="introduction__text">{{introduction.text}}</p>
+        </section>
+
+        <section class="services">
+            {{#each services}}
+            <div class="services__card">
+                <img class="services__card-icon" src="{{this.image.src}}" alt="{{this.image.alt}}">
+                <h3 class="services__card-title">{{this.title}}</h3>
+                <p class="services__card-description">{{this.description}}</p>
+            </div>
+            {{/each}}
+        </section>
+    </main>
