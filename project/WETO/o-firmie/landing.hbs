@@ -1,0 +1,27 @@
+<style>
+    {{{style}}}
+</style>
+
+ <div class="main-content">
+        <section class="vision">
+            <h2 class="vision__heading">{{section1.heading}}</h2>
+            <p class="vision__caption">{{section1.caption}}</p>
+        </section>
+
+        <section class="mission">
+            <h2 class="mission__heading">{{section2.heading}}</h2>
+            <p class="mission__caption">{{section2.caption}}</p>
+        </section>
+
+        <section class="values">
+            <h2 class="values__heading">{{section3.heading}}</h2>
+            <div class="values__cards">
+                {{#each section3.values}}
+                <div class="values__card">
+                    <h3 class="values__card-title">{{this.title}}</h3>
+                    <p class="values__card-description">{{this.description}}</p>
+                </div>
+                {{/each}}
+            </div>
+        </section>
+    </div>
