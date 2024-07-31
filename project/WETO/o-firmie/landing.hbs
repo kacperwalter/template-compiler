@@ -2,7 +2,7 @@
     {{{style}}}
 </style>
 
- <main class="main-content">
+ <div class="main-content">
         <section class="vision">
             <h2 class="vision__heading">{{section1.heading}}</h2>
             <p class="vision__caption">{{section1.caption}}</p>
@@ -18,11 +18,10 @@
             <div class="values__cards">
                 {{#each section3.values}}
                 <div class="values__card">
-                    <div class="values__card-number">{{@index}}</div>
                     <h3 class="values__card-title">{{this.title}}</h3>
                     <p class="values__card-description">{{this.description}}</p>
                 </div>
                 {{/each}}
             </div>
         </section>
-    </main>
+    </div>
