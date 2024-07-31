@@ -2,18 +2,23 @@
     {{{style}}}
 </style>
 
-    <div class="main-content">
-        <section class="introduction">
-            <p class="introduction__text">{{introduction.text}}</p>
+    <main class="main-content">
+        <section class="open-recru">
+            <h2>Otwarte rekrutacje</h2>
+
+            <ul>
+                <li>
+                    <a href="https://www.weto.com.pl/junior-project-engineer,p12.html">
+                        <p>Junior Project Engineer</p>
+                        <button>Zobacz</button>
+                    </a>
+                </li>
+            </ul>
         </section>
 
-        <section class="services">
-            {{#each services}}
-            <div class="services__card">
-                <img class="services__card-icon" src="{{this.image.src}}" alt="{{this.image.alt}}">
-                <h3 class="services__card-title">{{this.title}}</h3>
-                <p class="services__card-description">{{this.description}}</p>
-            </div>
-            {{/each}}
+        <section class="recruitment">
+            <img class="recruitment__image" src="{{recruitment.image.src}}" alt="{{recruitment.image.alt}}">
+            <p class="recruitment__announcement">{{recruitment.announcement}}</p>
+            <h2 class="recruitment__call-to-action">{{recruitment.callToAction}}</h2>
         </section>
-    </div>
+    </main>
