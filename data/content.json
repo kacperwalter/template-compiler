@@ -1,39 +1,31 @@
 {
-  "section1": {
-    "heading": "Nasza wizja:",
-    "caption": "Chcemy inspirować zarówno naszych klientów, dostawców, jak i współpracowników do nieszablonowego myślenia o przemyśle, biznesie oraz relacjach. Chcemy być prekursorem poszukiwań najprostszego rozwiązania, którego odnalezienie jest źródłem osobistej satysfakcji i dodatkowej wartości dla otoczenia. Naszym celem jest stać się liderem innowacji, dostarczając najwyższej jakości maszyny i wyposażenie, które przekształcają sposób produkcji na całym świecie. Wyobrażamy sobie przyszłość, w której nasze zaawansowane i dopasowane na miarę potrzeb klientów rozwiązania napędzają efektywność i doskonałość w produkcji, inspirując ich do osiągania niespotykanych dotąd standardów. Pragniemy być znani z niezawodności, kreatywności i jednoczesnej troski o zrównoważony rozwój, a także z budowania długotrwałych relacji opartych na zaufaniu i wspólnym dążeniu do progresu."
+  "introduction": {
+    "text": "To, co nas wyróżnia to połączenie wiedzy ugruntowanej w wieloletniej tradycji oraz innowacyjnego podejścia do rozwiązywania problemów i zwiększania wydajności procesów produkcyjnych. Jesteśmy skoncentrowani na dogłębnym poznaniu działalności oraz potrzeb naszego klienta, dzięki czemu przedstawiona oferta jest precyzyjna, jak również korzystna ekonomicznie i procesowo."
   },
-  "section2": {
-    "heading": "Nasza Misja:",
-    "caption": "Nasze innowacyjne rozwiązania otwierają nowe możliwości dla branży przetwórstwa kakao i wyrobów czekoladowych, przynosząc korzyści zarówno naszym partnerom biznesowym, jak i konsumentom na całym świecie. Naszą ambicją jest rozwiązywanie najtrudniejszych wyzwań produkcyjnych, stając się stabilnym i solidnym wsparciem dla kontrahentów. Wprowadziliśmy na rynek pionierski system składania i realizacji zamówień, dzięki któremu utrzymanie stabilnej i wydajnej produkcji będzie zdecydowanie łatwiejsze i bardziej przewidywalne. Jesteśmy przekonani, że nasze usługi stanowią kluczowy element w tworzeniu efektywnych i oszczędnych linii produkcyjnych, zarówno dzięki szerokiej ofercie maszyn i urządzeń, jak dzięki niezawodnemu i precyzyjnemu serwisowi. Naszą misją jest oferowanie unikatowych i niestandardowych rozwiązań, dostosowanych do indywidualnych potrzeb każdego klienta. Chcemy być partnerem, na którym można polegać. Oferujemy wsparcie i współpracę na każdym etapie procesu produkcyjnego, zarówno podczas wyboru technologii, wdrażania projektu, jak i w czasie eksploatacji oraz prac serwisowych."
-  },
-  "section3": {
-    "heading": "Nasze wartości:",
-    "values": [
-      {
-        "title": "Gotowość do podważania przyjętych założeń",
-        "description": "Jesteśmy gotowi nie tylko do postawienia weto temu, co nie przynosi wartości, ale przede wszystkim do kwestionowania status quo i przyjętych założeń, tak długo, aż uda nam się znaleźć prostsze i lepsze rozwiązania."
-      },
-      {
-        "title": "Poczucie przynależności",
-        "description": "Wierzymy, że relacje w pracy i biznesie powinny dawać poczucie przynależności i dążenia do wspólnego celu. Chcemy wykorzystywać efekt synergii doświadczeń, kompetencji, tradycji i nowoczesności. Praca zespołowa i dbanie o wzajemny dobrostan pozwolą nam wspólnie dążyć do realizacji naszych ambicji i planów."
-      },
-      {
-        "title": "Upraszczanie procesów",
-        "description": "Jedną z zasad naszego działania jest dążenie do uproszczenia procesu tak, aby był jak najbardziej przewidywalny, kontrolowany i minimalizujący ryzyko prowadzenia biznesu. Wypracowywanie prostych i intuicyjnych rozwiązań wymaga wiele wysiłku i pracy, ale przynosi niezrównanie więcej korzyści."
-      },
-      {
-        "title": "Decyzyjność i odpowiedzialność",
-        "description": "Wraz z przyjętym projektem, bierzemy na siebie odpowiedzialność za rzetelne i profesjonalne wykonanie powierzonych nam zadań. Jesteśmy skoncentrowani na dogłębnym i kompleksowym przygotowaniu do rozpoczęcia projektu, które pozwala nam na podejmowanie decyzji niepozbawionych ryzyka, ale świadomych jego wystąpienia."
-      },
-      {
-        "title": "Obustronne zadowolenie z wyniku",
-        "description": "Dobrze zrealizowany projekt, dostawa lub usługa to sytuacja, w której obie strony kontraktu są zadowolone. Wierzymy, że jedynie transakcje 'win win' pozwalają w pełni cieszyć się sukcesami i budować trwałe relacje biznesowe."
-      },
-      {
-        "title": "Niezawodna jakość, jakościowa niezawodność",
-        "description": "Jakość świadczonych przez nas usług i dostarczanych produktów musi być nie tylko na najwyższym poziomie. Chcemy, aby nasza oferta stanowiła niezawodne, solidne rozwiązanie, na którym można polegać w najbardziej wymagających warunkach procesu produkcyjnego."
+  "services": [
+    {
+      "title": "Wyposażenie linii produkcyjnych",
+      "description": "Oferujemy usługi w zakresie pozyskiwania maszyn oraz urządzeń produkcyjnych, zapewniając w pełni ich implementacji w działającym ciągu produkcyjnym. W celu poznania szczegółowej oferty zachęcamy do zalogowania się w Portalu Klienta.",
+      "image": {
+        "src": "/img/nasze-uslugi/wyposazenie-linii.svg",
+        "alt": "Advanced Production Line Equipment"
       }
-    ]
-  }
+    },
+    {
+      "title": "Doradztwo inżynieryjne",
+      "description": "Nasi specjaliście tworzą projekty linii technologicznych stanowiące rozwiązania dedykowane dla każdego klienta, również w zakresie działalności badawczo-rozwojowej. Aby zweryfikować możliwość współpracy, zachęcamy do kontaktu i wysłania zapytania przez formularz kontaktowy.",
+      "image": {
+        "src": "/img/nasze-uslugi/doradztwo.svg",
+        "alt": "Engineering Consultation Services"
+      }
+    },
+    {
+      "title": "Serwis",
+      "description": "Zapewniamy usługi serwisowe na najwyższym poziomie, świadczone przez ekspertów z międzynarodowym doświadczeniem. Wspieramy i doradzamy naszym klientom na każdym etapie wdrażania rozwiązań oraz umożliwienia niezawodnego działania maszyn i urządzeń.",
+      "image": {
+        "src": "/img/nasze-uslugi/serwis.svg",
+        "alt": "Expert Service Support"
+      }
+    }
+  ]
 }
